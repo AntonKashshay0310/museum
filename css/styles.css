@@ -147,39 +147,12 @@ body {
 
 .information__item {}
 
-.information__item::before {
-    content: '';
-    display: block;
-    border-radius: 4px;
-    background-color: #F5F4FA;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
+.inf {
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
-.information__item:nth-child(1)::before {
-    background-image: url(../images/information/antenna1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.information__item:nth-child(4)::before {
-    background-image: url(../images/information/astronaut1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.information__item:nth-child(2)::before {
-    background-image: url(../images/information/clock.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.information__item:nth-child(3)::before {
-    background-image: url(../images/information/diagram.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 
 .information__title {
@@ -471,6 +444,7 @@ body {
 .footer__svg {
     width: 24px;
     height: 24px;
+    fill: #FFF;
 }
 
 .backdrop {
